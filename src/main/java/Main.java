@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         
-        System.out.print("Masukkan bilangan pertama : ");
+        System.out.print("Masukkan bilangan pertama : "); 
         double bilangan1 = keyboard.nextDouble();
         
         System.out.print("Masukkan Operator (+, -, *, /) : ");
