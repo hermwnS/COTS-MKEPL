@@ -16,10 +16,10 @@ public class Main {
         double bilangan1 = keyboard.nextDouble();
         
         System.out.print("Masukkan Operator (+, -, *, /) : ");
-        char operator = keyboard.next().charAt(0);
+        char operator = keyboard.next().charAt(1);
         
         System.out.print("Masukkan bilangan kedua : ");
-        double bilangan2 = keyboard.nextDouble();
+        double bilangan2 = keyboard.nextDouble(3);
         
         try{
             double hasil = Kalkulator.hitung(bilangan1, bilangan2, operator);
