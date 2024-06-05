@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
 public class KalkulatorTest {
     @Test
     public void testPenjumlahan(){
-        assertEquals(10, Kalkulator.hitung(5, 5, '+'), 0.001);
+        assertEquals(14, Kalkulator.hitung(5, 5, '+'), 0.001);
     }
     
     @Test
