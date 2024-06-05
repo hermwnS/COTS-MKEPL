@@ -21,13 +21,10 @@
         </repository>
     </distributionManagement>
     
-    <packaging>jar</packaging>
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <sonar.organization>hermwns</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <exec.mainClass>Main</exec.mainClass>
     </properties>
 </project>
