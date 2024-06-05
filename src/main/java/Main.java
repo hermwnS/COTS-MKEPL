@@ -13,6 +13,7 @@ public class Main {
         
         System.out.print("Masukkan bilangan pertama : ");
         double bilangan1 = keyboard.nextDouble();
+        double bilangan1 = keyboard.nextDouble();
         
         System.out.print("Masukkan Operator (+, -, *, /) : ");
         char operator = keyboard.next().charAt(0);
